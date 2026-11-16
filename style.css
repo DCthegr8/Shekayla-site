@@ -253,3 +253,8 @@ footer li{margin:0}
 .mcard:nth-child(3)>div{align-self:center;padding:2rem clamp(1.4rem,4vw,3rem)}
 .mcard:nth-child(3) h3{font-size:1.7rem}
 @media (max-width:760px){.mpair{grid-template-columns:1fr}.mcard:nth-child(3){display:block}.mcard:nth-child(3) .mph{aspect-ratio:4/5;height:auto}.mcard:nth-child(3)>div{padding:1.4rem 1.6rem 1.8rem}.mcard:nth-child(3) h3{font-size:1.35rem}}
+
+.verse{margin:0 auto;padding:0 1.2rem 1.8rem;max-width:52rem;text-align:center}
+.verse blockquote{margin:0;color:#F2F2F2;font-style:italic;font-size:1.1rem;line-height:1.55}
+.verse figcaption{margin-top:.5rem;font-weight:700;font-size:.9rem;letter-spacing:.04em;background:var(--gg);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
+@media (max-width:600px){.verse{padding-bottom:1.4rem}.verse blockquote{font-size:.95rem}}
