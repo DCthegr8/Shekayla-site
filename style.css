@@ -263,3 +263,4 @@ footer li{margin:0}
 nav a.ig{padding:0;border:1px solid rgba(212,175,55,.6);display:inline-flex}
 nav a.ig:hover{border-color:var(--gold)}
 @media (max-width:760px){nav.open{max-height:480px}nav li a.ig{margin-top:1rem}}
+@media (max-width:860px){.hero .wrap>div:first-child{display:contents}.hero h1{order:1}.hero .portrait{order:2}.hero .lead{order:3}.hero .cta{order:4}.hero .wrap{gap:.5rem}.hero .portrait{margin-bottom:-2.5rem}}
