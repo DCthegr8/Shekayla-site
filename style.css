@@ -258,3 +258,5 @@ footer li{margin:0}
 .verse blockquote{margin:0;color:#F2F2F2;font-style:italic;font-size:1.1rem;line-height:1.55}
 .verse figcaption{margin-top:.5rem;font-weight:700;font-size:.9rem;letter-spacing:.04em;background:var(--gg);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
 @media (max-width:600px){.verse{padding-bottom:1.4rem}.verse blockquote{font-size:.95rem}}
+.ig{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;border:1px solid rgba(212,175,55,.6);color:var(--gold);transition:background .2s,color .2s}
+.ig:hover,.ig:focus-visible{background:var(--gg);color:#14100a}
